@@ -1,0 +1,118 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    /* background-color: black; */
+    font-family: 'Quicksand';
+    font-size: 22px;
+
+}
+
+/* --------------------navbar-------------------------- */
+/* ul {
+    list-style: none;
+    display: flex;
+} */
+.navbar{
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img {
+    height: 50px;
+    
+    
+} */
+
+.nav-manu {
+    
+    display: flex;
+    gap: 40px;
+    
+    
+}
+
+.nav-manu a {
+    text-decoration: none;
+    color: #005b8f;
+}
+
+/*-------------------------- login ----------------------------- */
+.btn-login {
+    border: 1px solid;
+    background:transparent;
+    color: #333;
+    border-radius: 20px;
+    padding: 7px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-login:hover {
+    background-color: #005b8f;
+    color: white;
+    border:#005b8f ;
+}
+.btn-login:hover a {
+    color: #fff;
+}
+
+/* container */
+
+.career-table {
+  width: 90%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.career-table th {
+  background: #003366;
+  color: white;
+  text-align: left;
+  padding: 12px 16px;
+  font-weight: 600;
+}
+
+.career-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+  background: #f9f9f9;
+}
+
+.career-table tr:hover td {
+  background: #c9dcff;
+}
+
+.career-table tr:first-child td {
+  border-top: none;
+}
+
+/* toppic */
+.topic {
+    display: flex;
+    margin-top:4rem ;
+    justify-content: center;
+    align-items: center;
+}
+
