@@ -4,11 +4,11 @@
     console.log(get.nextPeriod)
     if(!get.nextPeriod){
         nextPeriodMessage.textContent = 'There are no upcoming active reservation periods.'
-        // console.log("dawdaw")
+       
         
     }
     else{
-        // console.log('kuy')
+   
             // next
         nextPeriodMessage.style.color = 'black'    
         const end = document.getElementById("next-period")
